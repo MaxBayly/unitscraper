@@ -5,7 +5,7 @@ from selenium import webdriver
 options = selenium.webdriver.ChromeOptions()
 options.add_argument('headless')
 
-driver = webdriver.Chrome("/usr/lib/chromium-browser/chromedriver", options=options)
+driver = webdriver.Chrome(options=options)
 
 # unit = input("Please enter a unit name (exact, including casing): ")
 # url = "https://handbook.monash.edu/current/units/" + unit
